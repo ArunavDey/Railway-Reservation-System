@@ -1,0 +1,33 @@
+.p-2 {
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+div ul li {
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div .dropdown-menu {
+    position: static;
+}
